@@ -66,7 +66,7 @@ function App() {
 
 return(
   <div className="w-[100%] h-[100vh] flex justify-center items-center p-4">
-     <div className="w-full max-w-md sm:max-w-lg md:max-w-xl  bg-white rounded-lx shadow-lg flex  flex-col justify-center text-center items-center p-6">
+     <div className="w-full max-w-md sm:max-w-lg md:max-w-xl  bg-white rounded-xl shadow-lg flex  flex-col justify-center text-center items-center p-6">
     <p className="font-bold text-4xl sm:text-5xl ">{format(time)}</p>
     <div className="flex flex-col sm:flex-row justify-center mt-8 w-full gap-4">
       <button className="py-2 px-6 bg-blue-400 rounded-md text-white font-semibold mr-5 hover:bg-yellow-400 transition" onClick={() => setTime(0)}>Restart</button>
